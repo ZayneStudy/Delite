@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Delite.iml" filepath="$PROJECT_DIR$/Delite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Delite-Revogi/Delite-Revogi.iml" filepath="$PROJECT_DIR$/Delite-Revogi/Delite-Revogi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetooth-communication-1.01/bluetooth-communication-1.01.iml" filepath="$PROJECT_DIR$/bluetooth-communication-1.01/bluetooth-communication-1.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sliding-menu/sliding-menu.iml" filepath="$PROJECT_DIR$/sliding-menu/sliding-menu.iml" />
+    </modules>
+  </component>
+</project>

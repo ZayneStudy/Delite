@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorMain</color>
+    <color name="colorPrimaryDark">@color/colorMain</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrayBlack">#1A1A1A</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorMain">#35B9F0</color>
+    <color name="colorScanViewOutsideCircle">#B8DCFC</color>
+    <color name="colorScanViewInsideCircle">#3278B4</color>
+    <color name="colorScanViewRingCircle">#31C9F2</color>
+    <color name="colorGray">#9E9E9E</color>
+    <color name="colorLine">@color/colorGray</color>
+</resources>

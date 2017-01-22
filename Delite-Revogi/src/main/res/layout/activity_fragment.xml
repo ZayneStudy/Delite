@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/title"/>
+
+    <FrameLayout
+        android:id="@+id/activity_fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/frament_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:id="@+id/activity_fragment_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/activity_fragment_color_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_color_normal"/>
+
+            <TextView
+                android:id="@+id/activity_fragment_color_tv"
+                style="@style/FirstBodyTextView"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/color"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_fragment_effects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/activity_fragment_effects_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_effects_normal"/>
+
+            <TextView
+                android:id="@+id/activity_fragment_effects_tv"
+                style="@style/FirstBodyTextView"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/effects"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_fragment_scenes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/activity_fragment_scenes_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_scenes_normal"/>
+
+            <TextView
+                android:id="@+id/activity_fragment_scenes_tv"
+                style="@style/FirstBodyTextView"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/scenes"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Delite</string>
+    <string name="exit_program">Again According To Exit The Application</string>
+    <string name="color">Color</string>
+    <string name="effects">Effects</string>
+    <string name="scenes">Scenes</string>
+    <string name="all_units">All Units</string>
+</resources>
